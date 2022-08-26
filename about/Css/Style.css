@@ -1,0 +1,454 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+
+.navbar{
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 80px;
+    margin: auto;
+    font-family: arial;
+    background-color: white;
+    
+
+}
+
+.navbar.sticky{
+    position: fixed;
+    background-color: #d9e5eef1;
+    box-shadow: 0px 0px 5px 0px;
+    transition: all 0.5s ease;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.navbar img{
+    margin-right: 30px;
+}
+.navbar i{
+    font-size:30px;
+}
+.navbar .nav li{
+    list-style: none;
+    display: inline-block;
+    text-transform: capitalize;
+    margin: 5px;
+
+}
+.navbar .nav a{
+    text-decoration: none;
+    color: #0453b5;
+}
+.navbar .nav a:hover{
+    text-decoration: none;
+    color: #05172d;
+    font-size: 20px;
+    transition: all 0.2s ease-in;
+}
+.mm2{
+    display: flex;
+    flex-flow: row wrap;
+}
+.toggle-btn{
+    display: none;
+    margin: 0 20px;
+}
+
+.section1{
+    background-image: linear-gradient( rgba(95, 95, 136, 0.666), rgba(60, 31, 31, 0.564)), url(../img/bg1.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items:flex-end;
+    /* justify-content: center; */    
+}
+.section1 h1{
+    color: #fff;
+    font-size: 3.5em;
+    text-transform: capitalize;
+}
+.contain1{
+    margin: 60px 100px;
+}
+.contain1-mini{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contain1-mini a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.contain1-mini i{
+    color: #fff;
+    padding: 13px;
+}
+.contain1-mini a .containyy{
+    color: #ffa500;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 20px;
+    
+}
+.section2 img{
+    border-radius: 5px;
+    margin: 5px;
+
+}
+.contain2{
+    max-width: 600px;
+    text-align: center;
+}
+.contain2 h4{
+    color: #ffa500;
+}
+.contain2 h1{
+    font-size: 30px;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.contain2 p{
+    /* font-size: 17px; */
+    line-height: 1.5;
+    color: rgb(138, 136, 136);
+    padding: 10px;
+}
+.contain2 button, .section3 button{
+    background-color: #ffa500;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+
+}
+.contain2 button a, .section3 button a{
+    color: white;
+    text-decoration:none;
+   
+}
+.contain2 button:hover, .section3 button:hover{
+    background-color: #0453b5;
+}
+
+.contain2 button a:hover, .section3 button a:hover{
+    color: #ffa500;
+    text-decoration:none;
+   
+}
+.section3{
+    background-color: #d9e5eeb0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.section3 div{
+    max-width: 500px;
+}
+.contain3 h3, .contain4 h3{
+    padding: 10px;
+    color: #ffa500;
+    text-transform: uppercase;
+}
+.contain3 h1, .contain4 h1{
+    font-size: 30px;
+    text-transform: capitalize;
+    padding: 10px;
+}
+#contain3 p, .contain4 p{
+    /* font-size: 17px; */
+    line-height: 1.5;
+    color: rgb(138, 136, 136);
+    padding: 10px;
+}
+.contain4{
+    max-width: 480px;
+    padding: 10px;
+    margin: 5px;
+    
+}
+
+.contain4 img{
+    border-radius: 15px;
+    width: 100%;
+    margin: 10px;
+}
+.section4{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 10px 50px 50px 50px;
+}
+.unsectioned>h1{
+    font-size: 35px;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.section5{
+    background-image: linear-gradient(rgba(88, 88, 108, 0.666), rgba(73, 70, 70, 0.564)), url(../img/banner3.jpg);
+    height: 30vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+.section6{
+    padding: 100px;
+}
+.team{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center ;
+    margin-bottom: 20px;
+}
+.team .team1{
+    background-image: url(../img/IMG-20211129-WA0024.jpg);
+    height: 40vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+
+}
+.team .team2{
+    background-image: url(../img/TBS_0502\ copy.jpg);
+    height: 40vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+
+}
+.team .team2 h4{
+    max-width: 200px;
+}
+.section6>h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
+/* .section3 div{
+    max-width: 500px;
+} */
+.contact h4{
+    padding: 10px;
+    text-transform: uppercase;
+}
+.contact h1{
+    font-size: 30px;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.contact p{
+    line-height: 1.5;
+    color: rgb(138, 136, 136);
+    padding: 10px;
+    max-width: 500px;
+}
+.contact{
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 100px
+}
+
+.contact input, textarea{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 18px;
+    width: 400px;
+    outline: none;
+   
+}
+.contact button{
+    background-color: #ffa500;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.contact button:hover{
+    background-color: #0453b5;
+}
+
+.contact button a:hover{
+    color: #ffa500;
+   
+}
+.contact button a{
+    color: white;
+    text-decoration:none;
+   
+}
+footer{
+    background-color: #d9e5eeb0;
+    padding: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+footer div h1{
+    font-size: 25px;
+    margin: 20px 3px;
+    text-transform: capitalize;
+}
+footer div{
+    margin: 10px;
+    /* max-width: ; */
+}
+footer div p{
+    line-height: 2;
+    color: rgb(138, 136, 136);
+    text-transform: capitalize;
+}
+footer .subscribe{
+    background-color: white;
+    padding: 30px 10px;
+}
+
+footer .subscribe input{
+    padding: 10px;
+    border: 2px solid #ffa500;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: none;
+    margin-top: 5px;
+    
+}
+footer .subscribe button{
+    background-color: #ffa500;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 12px;
+    margin-top: 5px;
+    
+}
+footer .subscribe button:hover{
+    background-color: #0453b5;
+    color: #ffa500;
+}
+.footer-contd{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 30px 50px;
+    background-color: #d9e5eeb0;
+    border: none;
+    border-top: 1px solid rgb(138, 136, 136);
+}
+.footer-contd i{
+    /* padding: 10px; */
+    font-size:20px;
+    margin: 5px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .toggle-btn{
+        display: block;
+        z-index: 999;
+        color: #0453b5;
+    }
+    .navbar .nav{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        background-color: #111;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        left: -100%;
+        padding-bottom: 80px;
+        transition: all 0.3s ease;
+    }
+    
+    .navbar .nav a{
+        color: #fff;
+    }
+    .navbar .nav li{
+        margin: 20px 0;
+        font-size: 25px;
+    }
+    .navbar .nav.active{
+        left: 0;
+    }
+    .toggle-btn i.active::before{
+        content: "\f00d"
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar i{
+        font-size:22px;
+    }
+    .section2 img{
+        width: 400px;
+    }
+    .navbar{
+        padding: 5px 50px;
+    }
+    .contact input, textarea{
+        font-size: 16px;
+        max-width: 350px;
+    
+    }
+    .section1{
+        justify-content:center;
+        align-items:center;
+    }
+    .section1 h1{
+        font-size: 2.8em;
+    }
+    .contain1{
+        margin: 0;
+    }
+    .contain1-mini a{
+        font-size: 18px;
+    }
+
+
+}
